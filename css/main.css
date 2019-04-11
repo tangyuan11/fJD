@@ -1,0 +1,41 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: 微软雅黑;
+	background-color: #fff;
+	/*text-align: center;*/
+}
+a,a:visited{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	color: #cc0d24;
+	text-decoration: none;
+}
+.container{
+	width: 1211px;
+	margin: 0 auto;
+}
+.rt{
+	float: right;
+}
+.lf{
+	float: left;
+}
+li{
+	list-style-type: none; 
+}
+.clearfloat:after{
+	display: block;
+	clear:both;
+	content: '';
+}
+i{
+	background-image: url(../images/iconlist_2.png);
+	background-repeat: none;
+	display: inline-block;
+	vertical-align: middle;
+}
